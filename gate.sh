@@ -12,7 +12,7 @@ export PATH="$HOME/.elan/bin:$PATH"
 cd "$(dirname "$0")" || exit 1
 NS="Thebault3"
 LIB="Thebault3"
-REQUIRED="Thebault3.sawayama_thebault Thebault3.IsThebaultCircle Thebault3.tri Thebault3.core Thebault3.main_frame Thebault3.main_real Thebault3.dist_sq_eq Thebault3.infDist_line_eq Thebault3.cross_mul_pos_of_sSameSide Thebault3.collinear_of_cross_eq_zero Thebault3.tri_incenter_spec Thebault3.dist_tri_circumcenter"
+REQUIRED="Thebault3.sawayama_thebault Thebault3.IsThebaultCircle Thebault3.tri Thebault3.core Thebault3.main_frame Thebault3.main_real Thebault3.dist_sq_eq Thebault3.infDist_line_eq Thebault3.cross_mul_pos_of_sSameSide Thebault3.collinear_of_cross_eq_zero Thebault3.tri_incenter_spec Thebault3.dist_tri_circumcenter Thebault3.l14b_points Thebault3.l14b_indep Thebault3.l14b_tri Thebault3.l14b_dist_center Thebault3.l14b_isThebaultCircle Thebault3.l14_sawayama_thebault Thebault3.l14b_dist_eq_of_sq Thebault3.l14b_circumcenter Thebault3.l14b_tangentAt Thebault3.l14b_eq_lineMap Thebault3.l14b_sSameSide Thebault3.l14w_sawayama_thebault Thebault3.Classical.cov_D4_part Thebault3.Classical.cov_D4_swapped_part Thebault3.Classical.cov_cross_zero_of_mem Thebault3.Classical.cov_sameSide_of_cross_pos Thebault3.Classical.cov_opp_cross_neg Thebault3.Classical.cov_D4 Thebault3.Classical.gap_opp_of_cross_neg Thebault3.Classical.gap_thebault_one Thebault3.Classical.cov_D4_obligation Thebault3.Classical.cov_D4_obligation_exact"
 SOURCES="Thebault3/*.lean Thebault3.lean"
 [ -e .lake/packages/mathlib ] || { echo "FAIL: Mathlib packages missing (run setup by hand)"; exit 1; }
 if [ "${SCAFFOLD:-0}" != "1" ]; then
